@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "title": "Залізна людина",
+    "titleOriginal": "Iron Man",
+    "type": "фільм",
+    "year": 2008,
+    "posterUrl": "https://storage.googleapis.com/pod_public/1300/263125.jpg",
+    "director": "Jon Favreau",
+    "description": "Мільярдер-інженер Тоні Старк потрапляє в афганську печеру, де створює високотехнологічний костюм-бойового заліза й вирішує стати супергероєм, щоб протистояти загрозам власного виробництва."
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "titleOriginal": "Inception",
+    "type": "фільм",
+    "year": 2010,
+    "posterUrl": "https://m.media-amazon.com/images/I/91b3Xtjt0IL._AC_UF894,1000_QL80_.jpg",
+    "director": "Christopher Nolan",
+    "description": "Майстер «екстракції» Дом Кобб і його команда проникають у підсвідомість жертв через спільне сновидіння — завдання: не вкрасти ідею, а закласти її глибоко в розум."
+  },
+  {
+    "id": 3,
+    "title": "Чорна Пантера",
+    "titleOriginal": "Black Panther",
+    "type": "фільм",
+    "year": 2018,
+    "posterUrl": "https://i.pinimg.com/564x/41/10/1a/41101a9da1c162c354f60b1dc4ded6be.jpg",
+    "director": "Ryan Coogler",
+    "description": "Т'Чалла повертається до Ваканди, щоб взяти на себе корону, але стикається із загрозою як зовнішньою, так і внутрішньою — і мусить боротися за майбутнє свого народу й ідеали королівства."
+  },
+  {
+    "id": 4,
+    "title": "Брати",
+    "titleOriginal": "Brothers",
+    "type": "фільм",
+    "year": 2009,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTkyMTY5MTcxOV5BMl5BanBnXkFtZTcwMTI3MDE3Mg@@._V1_.jpg",
+    "director": "Jim Sheridan",
+    "description": "Коли капітан Сем Кехілл вважається загиблим в Афганістані, його молодший брат Томмі стає опорою для його дружини й дітей. Та несподіване повернення Сема порушує межі між сім'єю, почуттям обов'язку й травмою війни."
+  },
+  {
+    "id": 5,
+    "title": "Смерть на похоронах",
+    "titleOriginal": "Death at a Funeral",
+    "type": "фільм",
+    "year": 2010,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzMDQxODE0NF5BMl5BanBnXkFtZTcwODE0MDk0Mw@@._V1_FMjpg_UX1000_.jpg",
+    "director": "Neil LaBute",
+    "description": "Похорон сім'янного патріарха перетворюється на хаос, коли розповідаються секрети, з'являється шантажист і галюциногенна плутанина — чорно-комедійна історія про сімейні стосунки й несподівані ситуації."
+  },
+  {
+    "id": 6,
+    "title": "Самотній",
+    "titleOriginal": "Self/less",
+    "type": "фільм",
+    "year": 2015,
+    "posterUrl": "https://m.media-amazon.com/images/I/91vQOom67ZL._AC_UF894,1000_QL80_.jpg",
+    "director": "Tarsem Singh",
+    "description": "Багатий магнат, приречений на смерть від раку, погоджується на радикальну процедуру перенесення свідомості в молоде тіло. Але нове життя відкриває страшні таємниці про старе."
+  },
+  {
+    "id": 7,
+    "title": "Автопсія Джейн Доу",
+    "titleOriginal": "The Autopsy of Jane Doe",
+    "type": "фільм",
+    "year": 2016,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjA2MTEzMzkzM15BMl5BanBnXkFtZTgwMjM2MTM5MDI@._V1_.jpg",
+    "director": "André Øvredal",
+    "description": "Батько та син — патологоанатоми — отримують тіло невідомої жінки («Джейн Доу») і в процесі розтину виявляють внутрішні поранення, дивні символи й можливу зв'язок з чаклунством."
+  },
+  {
+    "id": 8,
+    "title": "Superdeep",
+    "titleOriginal": "The Superdeep",
+    "type": "фільм",
+    "year": 2020,
+    "posterUrl": "https://m.media-amazon.com/images/I/81SjajtyMVL._AC_UF894,1000_QL80_.jpg",
+    "director": "Arseny Syuhin",
+    "description": "У 1984 році команда дослідників і військових спускається до секретного підземного комплексу на Кольській надглибокій свердловині, щоб розслідувати таємничий спалах хвороби — але те, що вони знаходять, виявляється загрозою для всієї людства."
+  },
+
+  {
+    "id": 9,
+    "title": "Інтерстеллар",
+    "titleOriginal": "Interstellar",
+    "type": "фільм",
+    "year": 2014,
+    "posterUrl": "https://m.media-amazon.com/images/I/91obuWzA3XL.jpg",
+    "director": "Christopher Nolan",
+    "description": "Космічна експедиція через червоточину у пошуках нової домівки для людства — боротьба з часом, гравітацією та власними втратами.",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "title": "Месники: Ера Альтрона",
+    "titleOriginal": "Avengers: Age of Ultron",
+    "type": "фільм",
+    "year": 2015,
+    "posterUrl": "https://i.ebayimg.com/images/g/pcQAAOSwpBxkxVSr/s-l1200.jpg",
+    "director": "Joss Whedon",
+    "description": "Команда Месників активує штучний інтелект «Альтрон» заради миру, але той вирішує, що людство саме є загрозою і починає свій план для його знищення.",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "title": "Веном: Останній танець",
+    "titleOriginal": "Venom: The Last Dance",
+    "type": "фільм",
+    "year": 2024,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2QyYjYwYzUtZGJkYy00MDc3LTk1MzEtNTQwMjE1OTYxOWZhXkEyXkFqcGc@._V1_.jpg",
+    "director": "Kelly Marcel",
+    "description": "Едді Брок і симбіот Веном у гонитві — переслідувані військовим агентом та інопланетними монстрами з рідного світу Венома; вони змушені зробити фатальне рішення, яке завершить їхню історію.",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "title": "Почати заново",
+    "titleOriginal": "Begin Again",
+    "type": "фільм",
+    "year": 2013,
+    "posterUrl": "https://www.originalfilmart.co.uk/cdn/shop/products/Begin_Again_2013_original_film_art_5000x.jpg?v=1562543154",
+    "director": "John Carney",
+    "description": "Молодий вокаліст-автор пісень після розриву з хлопцем зустрічає руйнівного лейбл-менеджера в Нью-Йорку, і разом вони вирішують записати альбом на вулицях міста — музичний початок нового життя.",
+    "score": 7.0
+  },
+  {
+    "id": 13,
+    "title": "Я, робот",
+    "titleOriginal": "I, Robot",
+    "type": "фільм",
+    "year": 2004,
+    "posterUrl": "https://i.ebayimg.com/images/g/w6IAAOSwyjJZ1I18/s-l1200.jpg",
+    "director": "Alex Proyas",
+    "description": "У Чикаго 2035 року, люди живуть поруч із роботами, які керуються «Трьома законами робототехніки». Детектив Дел Спунер сумнівається в діяльності роботів після підозрілої смерті засновника корпорації роботів і розслідує змову, яка може поставити під загрозу саме людство.",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "title": "Єретик",
+    "titleOriginal": "Heretic",
+    "type": "фільм",
+    "year": 2024,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzFiMWM4YjAtY2Y3Yi00MDIzLTk0N2MtYTAwNGM3ZmMwODhlXkEyXkFqcGc@._V1_.jpg",
+    "director": "Scott Beck, Bryan Woods",
+    "description": "Новий фільм (2024), сюжет охоплює тему порушення усталених норм віри та влади, ймовірно з елементами трилера чи горору.",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "title": "Безславні виродки",
+    "titleOriginal": "Inglourious Basterds",
+    "type": "фільм",
+    "year": 2009,
+    "posterUrl": "https://i.etsystatic.com/18242346/r/il/21bb28/3704563719/il_570xN.3704563719_hqwc.jpg",
+    "director": "Quentin Tarantino",
+    "description": "У часи Другої світової війни група американських євреїв-солдатів отримує завдання знищити нацистських лідерів — історія помсти, відваги та чорного гумору.",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "title": "Облівіон",
+    "titleOriginal": "Oblivion",
+    "type": "фільм",
+    "year": 2013,
+    "posterUrl": "https://i.ebayimg.com/images/g/rFoAAOSwVBRb9JhZ/s-l1200.jpg",
+    "director": "Joseph Kosinski",
+    "description": "У постапокаліптичному майбутньому чоловік — технік, що обслуговує безпілотники на висоті — відкриває, що його місія і реальність зовсім не такі, якими здавалися, й веде боротьбу за власну ідентичність.",
+    "score": 7.0
+  },
+  {
+    "id": 17,
+    "title": "Зоряні війни: Епізод III — Помста Сітхів",
+    "titleOriginal": "Star Wars: Episode III – Revenge of the Sith",
+    "type": "фільм",
+    "year": 2005,
+    "posterUrl": "https://closeup.de/cdn/shop/files/G868715.jpg?v=1750236308&width=699",
+    "director": "George Lucas",
+    "description": "Падіння Ордена Джедаїв, перетворення Енакіна Скайвокера на Дарта Вейдера та вирішення війни між Республікою й Сітхами — темний крок у сазі «Зоряних війн».",
+    "score": 6.0
+  },
+  {
+    "id": 18,
+    "title": "Феррарі",
+    "titleOriginal": "Ferrari",
+    "type": "фільм",
+    "year": 2023,
+    "posterUrl": "https://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/nKsAAOSwe4JliQ7q/$_57.JPG?set_id=880000500F",
+    "director": "Michael Mann",
+    "description": "Влітку 1957 року керівник компанії Ferrari Енцо Феррарі стикається зі зрадою, банківськими труднощами та сімейною трагедією. Він ставить на карту все, коли готує команду до легендарної тисячімильної гонки «Мілле Мілья».",
+    "score": 7.0
+  },
+  {
+    "id": 19,
+    "title": "Фантастична четвірка: Перші кроки",
+    "titleOriginal": "The Fantastic Four: First Steps",
+    "type": "фільм",
+    "year": 2025,
+    "posterUrl": "https://de.web.img3.acsta.net/img/1d/13/1d1369a516bd5716a0859a8d84fffc22.jpg",
+    "director": "Matt Shakman",
+    "description": "У ретрофутуристичній атмосфері 1960-х чотири героя — Рід Річардс, Сью Сторм, Джонні Шторм і Бен Ґрімм — набувають надздібностей і мусять балансувати супергеройську відповідальність із сімейними зв'язками, коли стикаються з космічною загрозою.",
+    "score": 8.5
+  },
+  {
+    "id": 20,
+    "title": "Одинадцять друзів Оушена",
+    "titleOriginal": "Ocean's Eleven",
+    "type": "фільм",
+    "year": 2001,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMmNhZDkxYTgtMDM3ZC00NTQ3LWFjZTUtNzc1Y2QyNWZjNDRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "director": "Steven Soderbergh",
+    "description": "Геній-злодій Денні Оушен організовує грандіозне пограбування казино у Лас-Вегасі разом із десятьма професійними спільниками — комбінація гумору, інтриг і кримінальної майстерності.",
+    "score": 8.0
+  },
+  {
+    "id": 21,
+    "title": "Соціальна мережа",
+    "titleOriginal": "The Social Network",
+    "type": "фільм",
+    "year": 2010,
+    "posterUrl": "https://i.ebayimg.com/images/g/uXgAAOSw0eZiglWs/s-l1200.jpg",
+    "director": "David Fincher",
+    "description": "Історія створення соціальної мережі Facebook від студента Гарварду Марка Цукерберга, яка стрімко розвивається, але породжує конфлікти, судові процеси і випробування влади та дружби.",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "title": "Не дивися вгору",
+    "titleOriginal": "Don't Look Up",
+    "type": "фільм",
+    "year": 2021,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjlkZjMwNTMtMzI2Mi00NzdhLWIwYjEtNTgyZGQwNWQ4NGViXkEyXkFqcGc@._V1_.jpg",
+    "director": "Adam McKay",
+    "description": "Двоє астрономів намагаються попередити людство про наближення великого астероїда, який має знищити Землю — але стикаються з байдужістю, політичною маніпуляцією й глобальною апатією.",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "title": "Громовержці",
+    "titleOriginal": "Thunderbolts",
+    "type": "фільм",
+    "year": 2025,
+    "posterUrl": "https://cdn.marvel.com/content/1x/thunderboltsposter.jpeg",
+    "director": "Jake Schreier",
+    "description": "Очікуваний супергеройський фільм про команду колишніх злочинців, яких уряд змушує працювати на нього, щоб компенсувати власні провини — тема відплати, компромісу та другий шанс.",
+    "score": 7.0
+  },
+  {
+    "id": 24,
+    "title": "Надзвичайні пригоди Адель Блан-Сек",
+    "titleOriginal": "The Extraordinary Adventures of Adèle Blanc-Sec",
+    "type": "фільм",
+    "year": 2010,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjQ5YThjMWEtZGU2NC00OGM5LTljOGEtYzhiYjI3MWFjN2EzXkEyXkFqcGc@._V1_.jpg",
+    "director": "Luc Besson",
+    "description": "У Парижі початку XX століття журналістка Адель Блан-Сек вирушає на небезпечну експедицію до Єгипту, де стикається з муміями, древніми прокляттями та таємницями, які можуть змінити хід історії.",
+    "score": 9.5
+  },
+  {
+    "id": 25,
+    "title": "Зелена книга",
+    "titleOriginal": "Green Book",
+    "type": "фільм",
+    "year": 2018,
+    "posterUrl": "https://i.ebayimg.com/images/g/BJsAAOSwg59eMHBI/s-l1200.jpg",
+    "director": "Peter Farrelly",
+    "description": "У 1960-х роках італійсько-американський викидайло стає водієм афроамериканського піаніста-класика під час туру по небезпечному Півдню США — історія дружби, яка долає расові бар'єри.",
+    "score": 6.0
+  },
+  {
+    "id": 26,
+    "title": "Драйв",
+    "titleOriginal": "Drive",
+    "type": "фільм",
+    "year": 2011,
+    "posterUrl": "https://i.ebayimg.com/images/g/KdoAAOSwhUllAaKN/s-l1200.jpg",
+    "director": "Nicolas Winding Refn",
+    "description": "Таємничий водій-каскадер працює на кримінальний світ уночі, але коли закохується в сусідку, його життя перетворюється на насильницьку боротьбу за виживання.",
+    "score": 10.0
+  }
+]

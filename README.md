@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# 🎬 Софія обирає фільм
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Мобільний сайт для вибору фільмів та мультфільмів. Після вибору фільму автоматично відкривається поштовий клієнт з готовим листом.
 
-## Available Scripts
+## 🚀 Швидкий старт
 
-In the project directory, you can run:
+### Локальний запуск
 
-### `npm start`
+```bash
+# Встановити залежності
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Запустити сайт локально
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Сайт відкриється за адресою [http://localhost:3000](http://localhost:3000)
 
-### `npm test`
+## 🎥 Як змінювати список фільмів
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Відредагуй файл `src/data/movies.json`:
 
-### `npm run build`
+```json
+{
+  "id": 1,
+  "title": "Назва фільму українською",
+  "titleOriginal": "Original Title",
+  "type": "фільм", // або "мультфільм"
+  "year": 2024,
+  "posterUrl": "https://image.tmdb.org/t/p/w500/POSTER_PATH.jpg"
+}
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Де знайти постери?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Зайди на [TMDB (The Movie Database)](https://www.themoviedb.org/)
+2. Знайди потрібний фільм
+3. Клікни на постер → "View Original"
+4. Скопіюй URL постера або використай формат: `https://image.tmdb.org/t/p/w500/{poster_path}`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌐 Деплой на GitHub Pages
 
-### `npm run eject`
+### Крок 1: Створи GitHub репозиторій
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Зайди на [github.com](https://github.com) і створи новий репозиторій з назвою `sofia-movies`
+2. Не додавай README чи .gitignore (вони вже є)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Крок 2: Оновлення homepage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Відкрий `package.json` і заміни `YOUR_GITHUB_USERNAME` на своє ім'я користувача GitHub:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```json
+"homepage": "https://YOUR_GITHUB_USERNAME.github.io/sofia-movies"
+```
 
-## Learn More
+### Крок 3: Завантаж код на GitHub
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Якщо git ще не ініціалізовано
+git init
+git add .
+git commit -m "Initial commit"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Додай remote і завантаж
+git remote add origin https://github.com/YOUR_USERNAME/sofia-movies.git
+git branch -M main
+git push -u origin main
+```
 
-### Code Splitting
+### Крок 4: Деплой
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run deploy
+```
 
-### Analyzing the Bundle Size
+Після цього сайт буде доступний за адресою:
+`https://YOUR_GITHUB_USERNAME.github.io/sofia-movies`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Оновлення сайту
 
-### Making a Progressive Web App
+Після будь-яких змін просто виконай:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git add .
+git commit -m "Опис змін"
+git push
+npm run deploy
+```
 
-### Advanced Configuration
+## 📱 Функціонал
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- ✅ Мобільний дизайн (оптимізовано для телефонів)
+- ✅ Фільтрація: всі / фільми / мультфільми
+- ✅ Красиві постери фільмів
+- ✅ Кнопка "Хочу цей!" відкриває готовий лист
+- ✅ Плавні анімації
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💕 Створено з любов'ю
