@@ -111,8 +111,7 @@ module.exports = async function handler(req, res) {
             content: question.trim()
           }
         ],
-        max_completion_tokens: 256,
-        temperature: 0.7
+        max_completion_tokens: 256
       })
     });
 
