@@ -42,7 +42,7 @@ function App() {
           onClick={() => setShowAskAI(true)}
           aria-label="Запитати AI"
         >
-          <span className="ask-ai-btn-text">Запитати ШІ</span>
+          <span className="ask-ai-btn-text">Запитати GPT 5 Nano</span>
         </button>
         <div className="header-decoration">✨</div>
         <h1 className="app-title">

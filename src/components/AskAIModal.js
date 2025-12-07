@@ -85,7 +85,13 @@ function AskAIModal({ onClose }) {
         </button>
         
         <div className="ask-ai-header">
-          <h2>Що тебе цікавить?</h2>
+          <div className="ask-ai-avatar">
+            <img src="/chat-gpt.png" alt="GPT icon" />
+          </div>
+          <div>
+            <h2>Що тебе цікавить?</h2>
+            <p className="ask-ai-subtitle">GPT Assistant</p>
+          </div>
         </div>
         
         <p className="ask-ai-hint">
@@ -136,9 +142,20 @@ function AskAIModal({ onClose }) {
         )}
 
         {answer && (
-          <div className="ask-ai-answer">
-            <div className="ask-ai-answer-label">Відповідь:</div>
-            <div className="ask-ai-answer-text">{answer}</div>
+          <div className="ask-ai-chat">
+            <div className="ask-ai-bubble user">
+              <div className="bubble-label">Ти</div>
+              <div className="bubble-text">{question}</div>
+            </div>
+            <div className="ask-ai-bubble ai">
+              <div className="bubble-avatar">
+                <img src="/chat-gpt.png" alt="GPT icon" />
+              </div>
+              <div>
+                <div className="bubble-label">GPT</div>
+                <div className="bubble-text">{answer}</div>
+              </div>
+            </div>
           </div>
         )}
       </div>
