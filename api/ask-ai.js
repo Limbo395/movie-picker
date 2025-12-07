@@ -30,11 +30,11 @@ function loadData() {
 // Формування контексту про контент сайту
 function buildMovieContext(allContent) {
   const lines = allContent.map((item) => {
-    const title = item.title;
-    const titleOriginal = item.titleOriginal || "";
+    const title = item.title; // Українська назва (відображається на сайті)
+    const titleOriginal = item.titleOriginal || ""; // Оригінальна назва
     
-    if (titleOriginal) {
-      return `${title} (${titleOriginal})`;
+    if (titleOriginal && titleOriginal !== title) {
+      return `${title} / ${titleOriginal}`;
     } else {
       return title;
     }
