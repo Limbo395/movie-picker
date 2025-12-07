@@ -42,15 +42,14 @@ function App() {
           onClick={() => setShowAskAI(true)}
           aria-label="Запитати AI"
         >
-          <span className="ask-ai-btn-icon">🤖</span>
-          <span className="ask-ai-btn-text">Ask AI</span>
+          <span className="ask-ai-btn-text">Запитати ШІ</span>
         </button>
         <div className="header-decoration">✨</div>
         <h1 className="app-title">
           Привіт, <span className="name-highlight">Соня</span>!
         </h1>
         <p className="app-subtitle">
-          Обери фільм, який хочеш подивитися 🍿
+          Поки що є тільки мультфільми від Disney і короткий список фільмів, які мені подобаються, але далі буде більше!
         </p>
       </header>
       
@@ -60,10 +59,6 @@ function App() {
           onOpenSeries={handleOpenSeries}
         />
       </main>
-      
-      <footer className="app-footer">
-        <p>З любов'ю для тебе 💕</p>
-      </footer>
 
       {selectedMovie && (
         <MovieModal 

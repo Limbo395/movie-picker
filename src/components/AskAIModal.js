@@ -85,12 +85,11 @@ function AskAIModal({ onClose }) {
         </button>
         
         <div className="ask-ai-header">
-          <span className="ask-ai-icon">🤖</span>
-          <h2>Запитай AI</h2>
+          <h2>Що тебе цікавить?</h2>
         </div>
         
         <p className="ask-ai-hint">
-          Запитай про фільми чи мультфільми на сайті
+          Ти можеш запитати про фільми чи мультфільми на сайті
         </p>
 
         <form onSubmit={handleSubmit} className="ask-ai-form">

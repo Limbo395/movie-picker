@@ -110,14 +110,12 @@ function MovieList({ onOpenMovie, onOpenSeries }) {
           className={`filter-tab ${filter === 'мультфільм' ? 'active' : ''}`}
           onClick={() => setFilter('мультфільм')}
         >
-          <span className="tab-icon">🎨</span>
           <span className="tab-text">Мультфільми</span>
         </button>
         <button
           className={`filter-tab ${filter === 'фільм' ? 'active' : ''}`}
           onClick={() => setFilter('фільм')}
         >
-          <span className="tab-icon">🎬</span>
           <span className="tab-text">Фільми</span>
         </button>
       </div>
