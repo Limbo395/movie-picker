@@ -27,13 +27,11 @@ function buildMovieContext(allContent) {
   const lines = allContent.map((item) => {
     const title = item.title;
     const titleOriginal = item.titleOriginal || "";
-    // Обмежуємо опис до 200 символів, щоб не перевантажувати контекст
-    const description = (item.description || "").slice(0, 200);
     
     if (titleOriginal) {
-      return `• ${title} (${titleOriginal}): ${description}`;
+      return `${title} (${titleOriginal})`;
     } else {
-      return `• ${title}: ${description}`;
+      return title;
     }
   });
   
@@ -171,13 +169,22 @@ module.exports = async function handler(req, res) {
       });
     }
     
-    const answer = data.choices[0]?.message?.content?.trim();
+    let answer = data.choices[0]?.message?.content?.trim();
     
-    if (!answer) {
+    if (!answer || answer.length === 0) {
       console.error("Empty answer in response:", data);
       return res.status(500).json({ 
         error: "Не вдалося отримати відповідь",
         details: "Модель повернула порожню відповідь"
+      });
+    }
+    
+    // Перевірка на занадто короткі або некорисні відповіді
+    if (answer.length < 3) {
+      console.error("Answer too short:", answer);
+      return res.status(500).json({ 
+        error: "Не вдалося отримати відповідь",
+        details: "Модель повернула занадто коротку відповідь"
       });
     }
 
