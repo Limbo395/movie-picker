@@ -52,7 +52,7 @@ function getSystemPrompt(movieContext) {
 - Дивитися деталі про обраний фільм чи мультфільм.
 - Отримувати підказки й коротку інформацію через AI-асистента.
 - Відкривати окремі сторінки для серіалів (якщо є).
-- Шукати знайомі або улюблені мультфільми й фільми в колекції сайту.
+- Шукати мультфільми й фільми в колекції сайту за допомогою пошуку.
 
 
 ВАЖЛИВО:
@@ -129,7 +129,7 @@ module.exports = async function handler(req, res) {
           content: question.trim()
         }
       ],
-      max_completion_tokens: 512,
+      max_completion_tokens: 2048,
       reasoning_effort: "low",
       stream: true
     };

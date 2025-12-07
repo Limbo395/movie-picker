@@ -103,10 +103,6 @@ function AskAIModal({ onClose }) {
             <p className="ask-ai-subtitle">GPT Assistant</p>
           </div>
         </div>
-        
-        <p className="ask-ai-hint">
-          Ти можеш запитати про фільми чи мультфільми на сайті
-        </p>
 
         <form onSubmit={handleSubmit} className="ask-ai-form">
           <div className="ask-ai-input-wrapper">
