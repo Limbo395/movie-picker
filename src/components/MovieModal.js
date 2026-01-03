@@ -28,7 +28,7 @@ function MovieModal({ movie, onClose }) {
 
   const handleChooseMovie = () => {
     const email = 'maksym.haiduk@icloud.com';
-    const subject = encodeURIComponent('Фільм від Софії 🎬');
+    const subject = encodeURIComponent('Фільм який я обрала🎬');
     const body = encodeURIComponent(`Макс, я хочу подивитися "${movie.title}" 💕`);
     
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;

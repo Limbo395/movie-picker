@@ -47,10 +47,10 @@ function App() {
         </button>
         <div className="header-decoration">✨</div>
         <h1 className="app-title">
-          Привіт, <span className="name-highlight">Соня</span>!
+          Привіт!
         </h1>
         <p className="app-subtitle">
-          Поки що є тільки мультфільми від Disney і короткий список фільмів, які мені подобаються, але далі буде більше!
+          Обирай фільми та мультфільми з нашої колекції!
         </p>
       </header>
       
